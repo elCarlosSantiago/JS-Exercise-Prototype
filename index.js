@@ -119,10 +119,10 @@ Baby.prototype.play = function(favoriteToy) {
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window/Global object binding. THis refers to when the this keyword binds to either the window object in the browser or the global object in node.
+  2. Implicit binding. When a preceding dot calls a function the object before the dot is the context for this.
+  3. Principle 3 is New binding, whenever we use a constructor function, this refers to the specific object that is created and returned by said constructor function.
+  4. Explicit binding is whenever the .call or .apply methods are used
 */
 
 
